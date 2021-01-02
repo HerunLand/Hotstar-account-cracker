@@ -1,1 +1,2 @@
-A transaction contains
+A transaction contains:
+
