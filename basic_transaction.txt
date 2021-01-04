@@ -1,4 +1,4 @@
 A transaction contains:
 
 Inputs
-- Si
+- Signed inpu
