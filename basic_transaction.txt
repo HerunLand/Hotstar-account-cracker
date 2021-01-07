@@ -1,4 +1,4 @@
 A transaction contains:
 
 Inputs
-- Signed inpu
+- Signed input scri
