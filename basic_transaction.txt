@@ -1,4 +1,5 @@
 A transaction contains:
 
 Inputs
-- Signed input script
+- Signed input scripts
+- Sou
