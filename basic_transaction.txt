@@ -2,4 +2,4 @@ A transaction contains:
 
 Inputs
 - Signed input scripts
-- Source of the co
+- Source of the coins 
