@@ -5,4 +5,4 @@ Inputs
 - Source of the coins (previous outputs we're spending)
 
 Outputs
-- 
+- Ou
