@@ -2,4 +2,6 @@ A transaction contains:
 
 Inputs
 - Signed input scripts
-- Source of the coins (previous outputs we're spending
+- Source of the coins (previous outputs we're spending)
+
+Outp
