@@ -4,4 +4,5 @@ Inputs
 - Signed input scripts
 - Source of the coins (previous outputs we're spending)
 
-Outp
+Outputs
+- 
