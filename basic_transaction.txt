@@ -6,4 +6,4 @@ Inputs
 
 Outputs
 - Output scripts that dictate conditions for spending the coins
-- Destination addres
+- Destination addresses

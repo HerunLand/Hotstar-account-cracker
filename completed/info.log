@@ -1,0 +1,3 @@
+
+# Logfile created on 2014-09-04 01:56:58 -0700 by logger.rb/41954
+D, [2014-09-04T01:56:58.434809 #67812] DEBUG -- : Pusher : connecting : wss://slanger1.chain.so:443/app/e9f5cc20074501ca7395?client=pusher-ruby-client&version=0.6.0&protocol=6
