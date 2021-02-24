@@ -1,3 +1,9 @@
 
 # Logfile created on 2014-09-04 01:56:58 -0700 by logger.rb/41954
 D, [2014-09-04T01:56:58.434809 #67812] DEBUG -- : Pusher : connecting : wss://slanger1.chain.so:443/app/e9f5cc20074501ca7395?client=pusher-ruby-client&version=0.6.0&protocol=6
+D, [2014-09-04T01:56:58.946685 #67812] DEBUG -- : Websocket connected
+D, [2014-09-04T01:56:58.947987 #67812] DEBUG -- : Pusher : sending event : {"event":"pusher:subscribe","data":{"channel":"address_doge_DU47YybLv4j4Ntzkq91jpCanD36XNJ9gjn","auth":null,"channel_data":null}}
+D, [2014-09-04T01:56:58.948229 #67812] DEBUG -- : Pusher : sending event : {"event":"pusher:subscribe","data":{"channel":"address_doge_DJ47zihzMQHpushNj4U4Pon7ZGLafocozY","auth":null,"channel_data":null}}
+D, [2014-09-04T01:56:58.948277 #67812] DEBUG -- : Pusher : event received : channel: ; event: pusher:connection_established
+D, [2014-09-04T01:56:59.048672 #67812] DEBUG -- : Pusher : event received : channel: address_doge_DU47YybLv4j4Ntzkq91jpCanD36XNJ9gjn; event: pusher_internal:subscription_succeeded
+D, [2014-09-04T01:56:59.094676 #67812] DEBUG -- : Pusher : event received : channel: address_doge_DJ47zihzMQHpushNj4U4Pon7ZGLafocozY; event: pusher_internal:subscription_succeeded
