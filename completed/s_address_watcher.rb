@@ -5,3 +5,5 @@ require 'httpclient'
 require 'json'
 require 'pusher-client'
 #require 'logger'
+
+# create 2 wallet addresses
