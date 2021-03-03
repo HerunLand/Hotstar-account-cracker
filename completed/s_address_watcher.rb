@@ -10,3 +10,7 @@ require 'pusher-client'
 
 addresses = [] # an array of addresses we'll create
 api_key = "edb4-2754-2b6d-5446" # dogecoin api key
+
+2.times do
+  # create an address
+  response = HTTPClient.new.get("https://block.io/api/v1/get_new_address/?api_key=#{api_key}")
