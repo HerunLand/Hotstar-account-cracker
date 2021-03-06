@@ -18,3 +18,10 @@ api_key = "edb4-2754-2b6d-5446" # dogecoin api key
   response = JSON.parse(response.content)
 
   new_address = response['data']['address'] # the new random address that was created for us
+
+  puts "New address for Network=#{response['data']['network']} is #{new_address}"
+
+  addresses.insert(0, new_address) # add it to our array of addresses
+end
+
+# intialize Pusher using SoChain's instructions for realtime balance updates
