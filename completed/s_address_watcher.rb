@@ -25,3 +25,8 @@ api_key = "edb4-2754-2b6d-5446" # dogecoin api key
 end
 
 # intialize Pusher using SoChain's instructions for realtime balance updates
+options = {
+    :ws_host => 'slanger1.chain.so', # our server to connect to
+    :encrypted => true, # this connection will be encrypted over SSL
+    :ws_port => 443, # the server's port to connect to
+    :wss_port => 443 # ...
