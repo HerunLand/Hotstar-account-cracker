@@ -30,3 +30,6 @@ options = {
     :encrypted => true, # this connection will be encrypted over SSL
     :ws_port => 443, # the server's port to connect to
     :wss_port => 443 # ...
+}
+
+# create the socket we shall use for updates
