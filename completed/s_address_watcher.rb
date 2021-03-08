@@ -33,3 +33,7 @@ options = {
 }
 
 # create the socket we shall use for updates
+socket = PusherClient::Socket.new('e9f5cc20074501ca7395', options)
+
+# subscribe to the channel for balance updates for each address
+addresses.each do |current_address|
