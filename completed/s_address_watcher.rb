@@ -37,3 +37,10 @@ socket = PusherClient::Socket.new('e9f5cc20074501ca7395', options)
 
 # subscribe to the channel for balance updates for each address
 addresses.each do |current_address|
+  socket.subscribe("address_doge_#{current_address}")
+end
+
+# alert us when the balance changes for any given address
+socket.bind('balance_update') do |data|
+  data = JSON.parse(data)
+  balance_change = data['value']['balance_change']
