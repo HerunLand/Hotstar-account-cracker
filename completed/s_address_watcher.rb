@@ -45,3 +45,6 @@ socket.bind('balance_update') do |data|
   data = JSON.parse(data)
   balance_change = data['value']['balance_change']
   current_address = data['value']['address']
+
+  puts "Dogecoin Address #{current_address} now has #{balance_change} additional DOGE"
+end
