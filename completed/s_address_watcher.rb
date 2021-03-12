@@ -48,3 +48,6 @@ socket.bind('balance_update') do |data|
 
   puts "Dogecoin Address #{current_address} now has #{balance_change} additional DOGE"
 end
+
+# keep going until we stop
+socket.connect
