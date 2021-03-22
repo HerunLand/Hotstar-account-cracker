@@ -1,1 +1,1 @@
-# create some wallet addresses, fund the
+# create some wallet addresses, fund them with
