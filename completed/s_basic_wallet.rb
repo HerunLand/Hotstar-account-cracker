@@ -1,1 +1,3 @@
-# create some wallet addresses, fund them with some coins using Block.io's AP
+# create some wallet addresses, fund them with some coins using Block.io's API
+
+r
