@@ -2,4 +2,5 @@
 
 require 'httpclient'
 require 'json'
-require 'bigdeci
+require 'bigdecimal'
+
