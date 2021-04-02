@@ -2,4 +2,4 @@
 
 require 'httpclient'
 require 'json'
-require 'bi
+require 'bigdeci
