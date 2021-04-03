@@ -4,4 +4,4 @@ require 'httpclient'
 require 'json'
 require 'bigdecimal'
 
-apiK
+apiKey = 
