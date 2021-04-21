@@ -7,3 +7,5 @@ require 'bigdecimal'
 apiKey = "1f86-055f-1e32-0f9a" # bitcoin testnet
 
 funder_label = "default" # the funding address' label
+
+# cre
