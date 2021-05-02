@@ -10,4 +10,4 @@ funder_label = "default" # the funding address' label
 
 # create an address (label=demo1)
 puts "Creating an address: "
-response 
+response = HT
