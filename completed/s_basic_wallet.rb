@@ -11,4 +11,4 @@ funder_label = "default" # the funding address' label
 # create an address (label=demo1)
 puts "Creating an address: "
 response = HTTPClient.new.get("https://block.io/api/v1/get_new_address/?api_key=#{apiKey}\&label=demo1")
-response = JSON.parse(respo
+response = JSON.parse(response.co
