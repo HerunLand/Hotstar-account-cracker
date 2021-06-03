@@ -13,4 +13,4 @@ puts "Creating an address: "
 response = HTTPClient.new.get("https://block.io/api/v1/get_new_address/?api_key=#{apiKey}\&label=demo1")
 response = JSON.parse(response.content)
 
-puts "Address created
+puts "Address created: #{res
