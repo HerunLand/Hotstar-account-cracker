@@ -14,4 +14,4 @@ response = HTTPClient.new.get("https://block.io/api/v1/get_new_address/?api_key=
 response = JSON.parse(response.content)
 
 puts "Address created: #{response['data']['address']} for Network=#{response['data']['network']}" if response['status'].eql?('success')
-puts "Address for the given label already existed, nothing's changed." if !respon
+puts "Address for the given label already existed, nothing's changed." if !response[
