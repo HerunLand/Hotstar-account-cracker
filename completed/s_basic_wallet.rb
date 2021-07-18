@@ -16,4 +16,4 @@ response = JSON.parse(response.content)
 puts "Address created: #{response['data']['address']} for Network=#{response['data']['network']}" if response['status'].eql?('success')
 puts "Address for the given label already existed, nothing's changed." if !response['status'].eql?('success')
 
-# fund it with funder
+# fund it with funder_label
