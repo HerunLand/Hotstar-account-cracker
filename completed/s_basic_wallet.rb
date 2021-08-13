@@ -17,4 +17,4 @@ puts "Address created: #{response['data']['address']} for Network=#{response['da
 puts "Address for the given label already existed, nothing's changed." if !response['status'].eql?('success')
 
 # fund it with funder_label
-response = HTTPClient.new.post("https://block.io/api/v1/withdraw_from_labels/?api_key=#{apiKey}", "fr
+response = HTTPClient.new.post("https://block.io/api/v1/withdraw_from_labels/?api_key=#{apiKey}", "from_labels
