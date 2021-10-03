@@ -20,4 +20,4 @@ puts "Address for the given label already existed, nothing's changed." if !respo
 response = HTTPClient.new.post("https://block.io/api/v1/withdraw_from_labels/?api_key=#{apiKey}", "from_labels=default&to_label=demo1&amount=0.00002&pin=demo1haha")
 response = JSON.parse(response.content)
 
-puts "Sent #{response['data']['amount_sent']} #{response['data']['network']} in Transactio
+puts "Sent #{response['data']['amount_sent']} #{response['data']['network']} in Transaction ID 
