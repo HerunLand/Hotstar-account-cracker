@@ -22,4 +22,4 @@ response = JSON.parse(response.content)
 
 puts "Sent #{response['data']['amount_sent']} #{response['data']['network']} in Transaction ID #{response['data']['txid']}"
 
-# waits for it to get funds (b
+# waits for it to get funds (by pol
