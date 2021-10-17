@@ -24,4 +24,4 @@ puts "Sent #{response['data']['amount_sent']} #{response['data']['network']} in 
 
 # waits for it to get funds (by polling Block.io's API)
 
-whil
+while true 
