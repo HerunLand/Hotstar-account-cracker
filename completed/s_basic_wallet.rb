@@ -25,4 +25,4 @@ puts "Sent #{response['data']['amount_sent']} #{response['data']['network']} in 
 # waits for it to get funds (by polling Block.io's API)
 
 while true do
-  # run this loop as many as t
+  # run this loop as many as time
