@@ -26,4 +26,4 @@ puts "Sent #{response['data']['amount_sent']} #{response['data']['network']} in 
 
 while true do
   # run this loop as many as times as we need
-  response = HTTPClient.new.get("https://block.io/api/v1/get_address_balance/?api_key=#{apiKey}&labe
+  response = HTTPClient.new.get("https://block.io/api/v1/get_address_balance/?api_key=#{apiKey}&label=d
