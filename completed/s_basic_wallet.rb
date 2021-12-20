@@ -29,4 +29,4 @@ while true do
   response = HTTPClient.new.get("https://block.io/api/v1/get_address_balance/?api_key=#{apiKey}&label=demo1")
   response = JSON.parse(response.content)
 
-  available_balance = BigDecimal.new(response['data']['available_balan
+  available_balance = BigDecimal.new(response['data']['available_balanc
