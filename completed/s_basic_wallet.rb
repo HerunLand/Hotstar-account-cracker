@@ -30,4 +30,4 @@ while true do
   response = JSON.parse(response.content)
 
   available_balance = BigDecimal.new(response['data']['available_balance'])
-  pen
+  pendi
