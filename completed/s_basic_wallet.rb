@@ -30,4 +30,4 @@ while true do
   response = JSON.parse(response.content)
 
   available_balance = BigDecimal.new(response['data']['available_balance'])
-  pending_received = BigDecimal.new(response['data']['unco
+  pending_received = BigDecimal.new(response['data']['unconfi
