@@ -31,3 +31,5 @@ while true do
 
   available_balance = BigDecimal.new(response['data']['available_balance'])
   pending_received = BigDecimal.new(response['data']['unconfirmed_received_balance'])
+
+  pu
