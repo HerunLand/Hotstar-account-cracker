@@ -32,4 +32,4 @@ while true do
   available_balance = BigDecimal.new(response['data']['available_balance'])
   pending_received = BigDecimal.new(response['data']['unconfirmed_received_balance'])
 
-  puts "Label=demo1 Balance Available: #{availa
+  puts "Label=demo1 Balance Available: #{available_b
