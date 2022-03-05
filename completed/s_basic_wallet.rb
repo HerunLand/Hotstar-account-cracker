@@ -33,3 +33,5 @@ while true do
   pending_received = BigDecimal.new(response['data']['unconfirmed_received_balance'])
 
   puts "Label=demo1 Balance Available: #{available_balance.truncate(8).to_s('F')}, Pending Received: #{pending_received.truncate(8).to_s('F')}"
+
+  break
