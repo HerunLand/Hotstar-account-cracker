@@ -34,4 +34,4 @@ while true do
 
   puts "Label=demo1 Balance Available: #{available_balance.truncate(8).to_s('F')}, Pending Received: #{pending_received.truncate(8).to_s('F')}"
 
-  break if available_balance
+  break if available_balance > 0
