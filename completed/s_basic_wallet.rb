@@ -36,4 +36,4 @@ while true do
 
   break if available_balance > 0
 
-  sleep(5) # wait 5 seconds before checking the balance a
+  sleep(5) # wait 5 seconds before checking the balance agai
