@@ -40,4 +40,4 @@ while true do
 end
 
 # create a destination address
-destination_label = "de
+destination_label = "demo2"
