@@ -42,4 +42,4 @@ end
 # create a destination address
 destination_label = "demo2"
 
-response = HTTPClient.new.get("https:
+response = HTTPClient.new.get("https://b
