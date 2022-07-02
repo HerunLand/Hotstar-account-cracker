@@ -42,4 +42,4 @@ end
 # create a destination address
 destination_label = "demo2"
 
-response = HTTPClient.new.get("https://block.io/api/v1/get_new_address/?api_key=#{apiKey}&label=#{desti
+response = HTTPClient.new.get("https://block.io/api/v1/get_new_address/?api_key=#{apiKey}&label=#{destinatio
