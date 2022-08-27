@@ -45,4 +45,5 @@ destination_label = "demo2"
 response = HTTPClient.new.get("https://block.io/api/v1/get_new_address/?api_key=#{apiKey}&label=#{destination_label}")
 response = JSON.parse(response.content)
 
-puts "Created Address for Label=#{destination_label}: #{response['data']['address']}" if response['status'].eql?('success'
+puts "Created Address for Label=#{destination_label}: #{response['data']['address']}" if response['status'].eql?('success')
+put
