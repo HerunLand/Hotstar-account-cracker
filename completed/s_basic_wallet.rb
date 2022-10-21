@@ -48,4 +48,4 @@ response = JSON.parse(response.content)
 puts "Created Address for Label=#{destination_label}: #{response['data']['address']}" if response['status'].eql?('success')
 puts "Address already existed for Label=#{destination_label} on Network=#{response['data']['network']}" if !response['status'].eql?('success')
 
-# for
+# forwards 
