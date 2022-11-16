@@ -50,4 +50,4 @@ puts "Address already existed for Label=#{destination_label} on Network=#{respon
 
 # forwards the funds to a designated address
 
-response = HTTPClient.new.post("https://block.io/api/v
+response = HTTPClient.new.post("https://block.io/api/v1/wit
