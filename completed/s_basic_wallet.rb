@@ -50,4 +50,4 @@ puts "Address already existed for Label=#{destination_label} on Network=#{respon
 
 # forwards the funds to a designated address
 
-response = HTTPClient.new.post("https://block.io/api/v1/withdraw_from_label
+response = HTTPClient.new.post("https://block.io/api/v1/withdraw_from_labels/?api_ke
