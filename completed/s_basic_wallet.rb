@@ -51,4 +51,4 @@ puts "Address already existed for Label=#{destination_label} on Network=#{respon
 # forwards the funds to a designated address
 
 response = HTTPClient.new.post("https://block.io/api/v1/withdraw_from_labels/?api_key=#{apiKey}", "from_labels=demo1&to_label=demo2&amount=0.00011&pin=demo1haha")
-response = JSON.parse(respon
+response = JSON.parse(response.content)
