@@ -54,4 +54,4 @@ response = HTTPClient.new.post("https://block.io/api/v1/withdraw_from_labels/?ap
 response = JSON.parse(response.content)
 
 puts "Sent #{response['data']['amount_sent']} #{response['data']['network']} in Transaction ID #{response['data']['txid']}" if response['status'].eql?('success')
-puts JSON.pr
+puts JSON.prett
