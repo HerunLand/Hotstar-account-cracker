@@ -13,3 +13,7 @@ apiKeys['LTC'] = '0e18-31e4-bff9-3c60'
 
 apiKeys.each do |coin_name, api_key|
   # get current prices for this coin_name in USD
+
+  puts "*** Prices for #{coin_name}:"
+
+  response = HTTPClient.new.get("https://block.io/api/v1/get_current_price/?api_key=#{api_key}&price_base=USD")
