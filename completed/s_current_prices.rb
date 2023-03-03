@@ -2,3 +2,14 @@
 # prints the current prices for Bitcoin, Dogecoin, and Litecoin against USD from all available exchanges
 
 require 'httpclient'
+require 'json'
+
+
+apiKeys = {} # container for api keys
+
+apiKeys['BTC'] = '0b1c-4ae9-d27b-f1c8'
+apiKeys['DOGE'] = 'edb4-2754-2b6d-5446'
+apiKeys['LTC'] = '0e18-31e4-bff9-3c60'
+
+apiKeys.each do |coin_name, api_key|
+  # get current prices for this coin_name in USD
