@@ -56,4 +56,4 @@ response = JSON.parse(response.content)
 puts "Sent #{response['data']['amount_sent']} #{response['data']['network']} in Transaction ID #{response['data']['txid']}" if response['status'].eql?('success')
 puts JSON.pretty_generate(response['data']) if !response['status'].eql?('success')
 
-# e
+# exit
