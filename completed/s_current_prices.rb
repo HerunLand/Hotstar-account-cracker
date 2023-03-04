@@ -23,3 +23,6 @@ apiKeys.each do |coin_name, api_key|
   response['data']['prices'].each do |price_data|
     # for all price objects returned for this coin
     puts price_data['price']+" USD/#{coin_name}"
+  end
+
+end
