@@ -12,3 +12,7 @@ We're here to help if you need it.
 - Basic payments/invoice page using Block.io+SoChain
 - A no sign-up payment system for accessing digital resources (using Block.io)
   1. User visits web page
+  2. Create a new address for their IP address
+  3. Wait until a payment has been received
+  4. If payment is appropriate, give them an access token
+  5. They can now use the access token to use the API
