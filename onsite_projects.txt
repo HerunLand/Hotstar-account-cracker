@@ -7,3 +7,8 @@ We're here to help if you need it.
 
 - A price alert system (below or above a certain threshold, issues an audible ping)
 - An IRC bot for watch-only addresses using SoChain
+- An IRC tipping bot using Block.io
+- A live-updating wallet interface using Block.io+SoChain
+- Basic payments/invoice page using Block.io+SoChain
+- A no sign-up payment system for accessing digital resources (using Block.io)
+  1. User visits web page
