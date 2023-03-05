@@ -4,3 +4,6 @@ Here are few cherry-picked projects you can work on to get acquainted with build
 You're welcome to try your own projects out.
 
 We're here to help if you need it.
+
+- A price alert system (below or above a certain threshold, issues an audible ping)
+- An IRC bot for watch-only addresses using SoChain
