@@ -6,3 +6,5 @@
 # subscribe to realtime balance updates for all of them
 
 # alert us when the balance changes for any given address
+
+# keep going until we stop
