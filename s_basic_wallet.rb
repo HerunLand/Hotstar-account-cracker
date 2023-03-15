@@ -14,3 +14,7 @@ response = JSON.parse(response.content)
 puts "Address created was: #{response['data']['address']} for Network=#{response['data']['network']}" if response['status'].eql?('success')
 
 # fund it with some coins from label=default (testnet)
+response = HTTPClient.new.post("https://block.io/api/v1/withdraw_from_labels/?api_key=#{api_key}", "amount=4.5&from_labels=default&to_label=demo1&pin=demo1haha")
+response = JSON.parse(response.content)
+
+puts "Withdrawal succeeded. Sent #{response['data']['amount_sent']} DOGETEST in Transaction ID #{response['data']['txid']}"
