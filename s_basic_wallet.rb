@@ -18,3 +18,11 @@ response = HTTPClient.new.post("https://block.io/api/v1/withdraw_from_labels/?ap
 response = JSON.parse(response.content)
 
 puts "Withdrawal succeeded. Sent #{response['data']['amount_sent']} DOGETEST in Transaction ID #{response['data']['txid']}"
+
+amount_available = BigDecimal.new('0.0')
+network_fee = BigDecimal.new('1.0') # 1 dogecoin network fee
+
+# wait for it to get funds (by polling Block.io's API)
+while true do
+  # keep checking block.io to see if demo1 has received the money or not
+  response = HTTPClient.new.get("https://block.io/api/v1/get_address_balance/?api_key=#{api_key}&label=demo1")
