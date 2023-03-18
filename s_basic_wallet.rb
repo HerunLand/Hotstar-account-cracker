@@ -26,3 +26,6 @@ network_fee = BigDecimal.new('1.0') # 1 dogecoin network fee
 while true do
   # keep checking block.io to see if demo1 has received the money or not
   response = HTTPClient.new.get("https://block.io/api/v1/get_address_balance/?api_key=#{api_key}&label=demo1")
+  response = JSON.parse(response.content)
+
+  amount_available = BigDecimal(response['data']['available_balance'])
