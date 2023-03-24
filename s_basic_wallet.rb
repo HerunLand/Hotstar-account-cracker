@@ -36,3 +36,7 @@ while true do
 
   sleep(5)
 end
+
+# create an address label=demo2
+response = HTTPClient.new.get("https://block.io/api/v1/get_new_address/?api_key=#{api_key}&label=demo2")
+response = JSON.parse(response.content)
