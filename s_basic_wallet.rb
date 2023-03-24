@@ -29,3 +29,10 @@ while true do
   response = JSON.parse(response.content)
 
   amount_available = BigDecimal(response['data']['available_balance'])
+
+  puts "Address has available money: #{amount_available.truncate(8).to_s('F')} DOGETEST" if amount_available > 0
+
+  break if amount_available > 0
+
+  sleep(5)
+end
