@@ -40,3 +40,6 @@ end
 # create an address label=demo2
 response = HTTPClient.new.get("https://block.io/api/v1/get_new_address/?api_key=#{api_key}&label=demo2")
 response = JSON.parse(response.content)
+
+puts "Address created: #{response['data']['address']} on Network=#{response['data']['network']}" if response['status'].eql?('success')
+
