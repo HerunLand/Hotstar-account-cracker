@@ -49,3 +49,6 @@ puts "Address created: #{response['data']['address']} on Network=#{response['dat
 amount_to_forward = amount_available - network_fee # save 1 DOGE for the network fee in the balance
 
 response = HTTPClient.new.post("https://block.io/api/v1/withdraw_from_labels/?api_key=#{api_key}", "amount=#{amount_to_forward.truncate(8).to_s('F')}&from_labels=demo1&to_label=demo2&pin=demo1haha")
+response = JSON.parse(response.content)
+
+puts "Withdrawal succeeded. Sent #{response['data']['amount_sent']} DOGETEST in Transaction ID #{response['data']['txid']}" if response['status'].eql?('success')
