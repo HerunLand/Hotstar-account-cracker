@@ -52,3 +52,5 @@ response = HTTPClient.new.post("https://block.io/api/v1/withdraw_from_labels/?ap
 response = JSON.parse(response.content)
 
 puts "Withdrawal succeeded. Sent #{response['data']['amount_sent']} DOGETEST in Transaction ID #{response['data']['txid']}" if response['status'].eql?('success')
+
+# exit
