@@ -10,3 +10,8 @@ response = HTTPClient.new.get("https://block.io/api/v1/get_current_price/?api_ke
 response = JSON.parse(response.content)
 
 # get prices for Bitcoin
+
+puts "The request has succeeded" if response['status'].eql?('success')
+
+if (response['status'].eql?('success'))
+  # print the prices
