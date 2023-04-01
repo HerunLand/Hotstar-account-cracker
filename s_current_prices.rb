@@ -15,3 +15,8 @@ puts "The request has succeeded" if response['status'].eql?('success')
 
 if (response['status'].eql?('success'))
   # print the prices
+
+  prices = response['data']['prices']
+
+  prices.each do |current_price|
+    # print out the price and exchange name
