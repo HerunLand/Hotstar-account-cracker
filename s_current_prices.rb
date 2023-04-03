@@ -22,3 +22,7 @@ if (response['status'].eql?('success'))
     # print out the price and exchange name
     puts "Price from #{current_price['exchange']} is #{current_price['price']} USD/BTC"
   end
+
+end
+
+# exit
